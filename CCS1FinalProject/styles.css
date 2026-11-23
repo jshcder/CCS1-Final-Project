@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(forestpic.jpg);
+    background-color: #f9f9f9;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    text-align: center; /* Center content horizontally */
+}
+
+.container {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 300px;
+    margin: 100px;
+    text-align: center;
+}
+
+/* Header styling */
+.container h2 {
+    color: green;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.container button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.container button:hover {
+    background-color: darkgreen;
+}
+
+.container button:disabled {
+    background-color: gray;
+}
+
+/* Link styling */
+.container a {
+    display: block;
+    color: green;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}

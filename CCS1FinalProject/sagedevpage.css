@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 98%; 
+    width: 100%;
+}
+
+hr{
+    border: 2px solid #1B4D3E;
+    margin-top: 6.4%;
+    position: relative;
+}
+
+body{
+    background-image: url(forest.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.return_homepage{
+    display: inline-block;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 3%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.welcome_user{
+    display: inline-block;
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 2.2%;
+    margin-bottom: 0%;
+    margin-left: 88.8%;
+    color: #03C03C;
+    vertical-align: top;
+}
+
+.logout{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 94%;
+    margin-top: 3.5%;
+    padding-bottom: 6%;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    color: red;
+}
+
+.container_profile{
+    display: inline-block;
+}
+
+.sagepic{
+    background-size: cover;
+    width: 17%;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 14%;
+    border: 5px solid #1B4D3E;
+    border-radius: 4%;
+    position: absolute;
+}
+
+.data_details{
+    display: inline-block;
+    color: white;
+    background-color: gray;
+    margin-left: 33%;
+    margin-top: 10.1%;
+    margin-right: 13%;
+    font-family: Arial;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+    position: fixed;
+}
+
+
+.dev-page-label{
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 89.5%;
+    margin-top: 39%;
+    font-size: 120%;
+    color: white;
+    position: absolute;
+}
+
+.copyright{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-left: 46.8%;
+    margin-top: 39%;
+}
